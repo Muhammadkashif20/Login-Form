@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(23, 62, 203);
+        }
+
+        div {
+            background-color: white;
+            text-align: center;
+            width: 330px;
+            height: 460px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        input {
+            padding: 5px;
+            width: 240px;
+        }
+
+        .id {
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 8px;
+            width: 255px;
+        }
+
+        a {
+            font-size: 13px;
+            text-decoration: none;
+            color: blue;
+
+        }
+
+        .nis {
+            color: rgb(145, 143, 143);
+        }
+
+        .nis:hover {
+            color: rgb(76, 74, 74);
+        }
+
+        button {
+            border-radius: 6PX;
+            padding: 8px;
+            width: 255px;
+            background-color: blue;
+            color: white;
+            border: 0;
+        }
+
+        .identify{
+            border: 1px solid grey;
+            border-radius: 6PX;
+            padding: 8px;
+            color: rgb(91, 84, 84);
+            width: 280px;
+         border: 0;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <div>
+        <br>
+        <h1>Login</h1>
+        <form
+            action="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzA1NjkzNDk3LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D">
+            <input type="email" placeholder="Email">
+            <br><br>
+            <input type="password" placeholder="Password">
+            <br><br>
+            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgot
+                Password?</a><br>
+            <br><input type="submit" value="Login" class="id"></a>
+            <br>
+            <p>Don't have an account? <a href="https://www.facebook.com/">Signup</a></p>
+            <p class="nis"> Or</p>
+            <button>Login with Facebook</button>
+            <br><br><br>
+            <a href="https://www.google.com" class="identify">Login with Google</a>
+        </form>
+    </div>
+</body>
+
+</html>
